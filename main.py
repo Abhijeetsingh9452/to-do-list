@@ -2,13 +2,13 @@
 from tkinter import *
 # Initializing the python to do list GUI window
 root = Tk()
-root.title('TechVidvan To-Do List')
+root.title('To-Do List')
 root.geometry('300x400')
 root.resizable(0, 0)
 root.config(bg="PaleVioletRed")
 
 # Heading Label
-Label(root, text='TechVidvan Python To Do List', bg='PaleVioletRed', font=("Comic Sans MS", 15), wraplength=300).place(x=35, y=0)
+Label(root, text='Python To Do List', bg='PaleVioletRed', font=("Comic Sans MS", 15), wraplength=300).place(x=35, y=0)
 
 # Listbox with all the tasks with a Scrollbar
 tasks = Listbox(root, selectbackground='Gold', bg='Silver', font=('Helvetica', 12), height=12, width=25)
